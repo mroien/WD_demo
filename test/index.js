@@ -130,7 +130,7 @@ describe('WD.js ad verification', function() {
 
     it('verify SWL is sized correctly every 3 rows', function() {
 
-        return driver.window.scrollBy(0,4000);
+        return driver.executeScript('window.scrollBy(0,4000)');
 
     });
 
